@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
   
-    cout << "Vedite put  " << endl;
+    cout << "Vedite put gg  " << endl;
     string path;
     cin >> path;
     std::ifstream html_stream(path);
