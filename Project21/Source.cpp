@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
   
-    cout << "Vedite put gg  " << endl;
+    cout << "Enter file path:" << endl;
     string path;
     cin >> path;
     std::ifstream html_stream(path);
@@ -19,7 +19,7 @@ int main()
     const std::string html_string = h.condense(html_stream);
     Validator v;
     const bool html_valid = v.validate(html_string);
-    cout << "Proveryemiy fil " << endl;
+    cout << "Checking the file :" << endl;
 
     // Выводит строку
     std::cout << html_string << '\n' << std::endl;
